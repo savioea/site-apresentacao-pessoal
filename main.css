@@ -72,6 +72,43 @@ section {
         margin-bottom: 8px;
     }
 
+    form {
+        margin-right: 64px;
+
+        input,
+        textarea,
+        button {
+            display: block;
+            width: 320px;
+            margin-bottom: 8px;
+            padding: 8px;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline-color: #27282b;
+        }
+
+        textarea {
+            resize: none;
+            height: 180px;
+        }
+
+        button {
+            background-color: #27282b;
+            color: #d9d9d9;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #373738;
+        }
+    }
+
     .container {
         align-items: flex-start;
     }
